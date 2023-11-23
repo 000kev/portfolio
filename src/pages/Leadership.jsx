@@ -19,7 +19,7 @@ export default function LeadershipPage() {
           update({name: 'INF3014F Class Rep', description: LEADERSHIP_EXPERIENCE[0].description});
           break;
         case 1:
-          update({name: 'RainbowUCT Chairperson', description: LEADERSHIP_EXPERIENCE[1].description});
+          update({name: 'Chairperson of RainbowUCT ', description: LEADERSHIP_EXPERIENCE[1].description});
           break;
         case 2:
           update({name: 'Golden Key Executive Public Relation Director', description: LEADERSHIP_EXPERIENCE[2].description});
@@ -30,7 +30,7 @@ export default function LeadershipPage() {
   return (
     <>
       <div className="relative inline-block">
-        <img src="./src/assets/code.jpg" className="block w-screen h-auto" />
+        <img src="./src/assets/leadership.jpg" className="block w-screen h-auto md:w-3/4 md:mx-48" />
       </div>
       <Divider />
       {/* PAGE CONTENT */}
@@ -43,7 +43,7 @@ export default function LeadershipPage() {
             </span>
             <span className="w-screen md:my-32 basis-1/2">
 
-                <p className="text-center text-lg m-5 w-5/6 my-2">
+                <p className="text-center mx-auto text-lg m-5 w-5/6 my-2">
                     {title.description}
                 </p>
             </span>

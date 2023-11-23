@@ -35,7 +35,7 @@ export default function ExperiencePage() {
   return (
     <>
       <div className="relative inline-block">
-        <img src="./src/assets/code.jpg" className="block w-screen h-auto" />
+        <img src="./src/assets/code.jpg" className="block w-screen h-auto md:w-3/4 md:mx-auto" />
       </div>
       <Divider />
       {/* PAGE CONTENT */}
@@ -48,7 +48,7 @@ export default function ExperiencePage() {
             </span>
             <span className="w-screen md:my-32 basis-1/2">
 
-                <p className="text-center text-lg m-5 w-5/6 my-2">
+                <p className="text-center mx-auto text-lg m-5 w-5/6 my-2">
                     {title.description}
                 </p>
             </span>

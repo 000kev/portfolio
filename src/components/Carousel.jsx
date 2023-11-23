@@ -13,14 +13,14 @@ export default function Carousel({onUpdate, children: slides }) {
   const next = () =>
     {
       update((current) => (current === slides.length - 1 ? 0 : current + 1))
-      if (current === 4) onUpdate(0);
+      if (current === slides.length - 1) onUpdate(0);
       else onUpdate(current + 1);
     };
   return (
     <>
-      <div className="overflow-hidden w-2/5 h-2/5 mx-11 md:w-auto md:justify-between md:h-fit md:translate-x-0">
+      <div className="overflow-hidden w-2/5 h-2/5 mx-auto md:w-auto md:justify-between md:h-fit md:translate-x-0">
         <div
-          className="flex transition-transform ease-out duration-500 md:items-center"
+          className="flex transition-transform ease-out duration-500 md:items-center "
           style={{ transform: `translateX(-${current * 100}%)` }}
         >
           {slides}
