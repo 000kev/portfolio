@@ -36,14 +36,14 @@ export default function LeadershipPage() {
       {/* PAGE CONTENT */}
       <div className="flex flex-col md:flex-row">
             <span className="md:w-1/2">
-              <h1 className="text-3xl font-heading font-extrabold m-auto md:mt-10 text-center">{title.name}</h1>
+              <h1 className="text-3xl font-heading font-extrabold m-auto md:mt-5 text-center">{title.name}</h1>
               <Carousel onUpdate={contentUpdateHandler}>
                   {LEADERSHIP_EXPERIENCE.map( (slide) => carousel_slider(slide.title)) }
               </Carousel>
             </span>
             <span className="w-screen md:my-32 basis-1/2">
 
-                <p className="text-center mx-auto text-lg m-5 w-5/6 my-2">
+                <p className="text-center mx-auto text-lg m-5 w-5/6 my-44 font-serif">
                     {title.description}
                 </p>
             </span>

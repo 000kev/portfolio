@@ -14,9 +14,9 @@ export default function ReflectionPage() {
       {/* PAGE CONTENT */}
             <span className="w-screen md:my-32">
             <h1 className="text-3xl font-heading font-extrabold m-auto md:mt-10 text-center">My Vision</h1>
-                <p className="text-center text-lg m-5">"Lorem ipsum dolor" - Someone</p>
+                <p className="text-center font-serif text-lg m-5">"Self-education is, I firmly believe, the only kind of education there is." I. Asimov</p>
 
-                <p className="text-center text-lg m-5 w-5/6 md:w-fit my-2">
+                <p className="text-center text-lg m-5 w-5/6 md:w-fit my-2 p-5 font-serif">
                     {VISION_EXPERIENCE}
                 </p>
             </span>

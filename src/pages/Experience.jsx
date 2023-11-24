@@ -48,7 +48,7 @@ export default function ExperiencePage() {
             </span>
             <span className="w-screen md:my-32 basis-1/2">
 
-                <p className="text-center mx-auto text-lg m-5 w-5/6 my-2">
+                <p className="text-center mx-auto text-lg m-5 w-5/6 my-44 font-serif">
                     {title.description}
                 </p>
             </span>
